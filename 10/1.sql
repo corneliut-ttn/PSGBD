@@ -1,0 +1,7 @@
+CREATE OR REPLACE VIEW myView AS
+   SELECT * 
+   FROM emp
+   WHERE sal<1500 
+   ORDER BY ename ASC;
+
+SELECT * FROM myView;
